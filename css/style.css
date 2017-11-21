@@ -1,0 +1,72 @@
+@import url('normalize.css');
+@import url('responsive.css');
+
+/*
+----------------------------------
+
+        Name: style.css
+        Version: 1.2
+
+----------------------------------
+
+        Table of Contents
+        
+        #Reset
+        #Typography
+        #Base Grid
+        #Left Side 
+        #Content Area 
+        #Introduction Screen
+        #About Screen
+        #Skills Screen
+        #Progressbar
+        #PieChart
+        #Experience Screen
+        #Education Screen
+        #Contact Screen
+        #Last Screen
+        #Blog Listing
+        #Blog Details
+        #404 Page
+        #Media Ipad
+
+*/
+
+/* ==========================================================================
+   #Reset
+   ========================================================================== */
+
+.bold {
+    font-weight: bold;
+}
+
+:root {
+    --light-color: #f6f6f6;
+    --dark-color: #fff;
+    --theme-color: #5d9aff;
+    --main-text-color: #818181;
+    --main-text-size: 16px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.canvas-container {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.center-processing {
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+}
