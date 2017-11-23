@@ -101,7 +101,7 @@ void draw() {
 
 //Draws the background and dots.
 void draw_Background() {
-  fill(255,200+random(50),100+random(100),10);
+  fill(255,150+random(100),0+random(255),10);
   rect(0, 0, width, height);
   stroke(255);
   fill(182,164,228);
